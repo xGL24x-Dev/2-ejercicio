@@ -6,7 +6,7 @@ obtener.addEventListener("click", function (even) {
 
     const nombre = document.getElementById("nombre").value;
     const ciudad = document.getElementById("ciudad").value;
-    const mensaje = `Bievenido ${nombre}! Nos alegra que estes visitando nuestra hermosa ciudad de ${ciudad}`;
+    const mensaje = `Bienvenido ${nombre}! Nos alegra que estes visitando nuestra hermosa ciudad de ${ciudad}`;
     resultado.textContent = mensaje;
 })
 
